@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookmyShow</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="../img/bookmyshow1.png">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="../index.html" id="main">BookmyShow</a>
+            <div>
+                <ul>
+                    <li><a href="../index.html" class="navbar">Movies</a></li>
+                    <li><a href="#" class="navbar">Stream</a></li>
+                    <li><a href="#" class="navbar">Events</a></li>
+                    <li><a href="#" class="navbar">Plays</a></li>
+                </ul>
+            </div>
+            <form id="search">
+                <input type="search" placeholder="Search for Movies,Events,Stream" name="search_box">
+                <input type="button" name="srch" value="submit" id="btn">
+            </form>
+        </div>
+        <div id="content">
+            <div class="movie">
+            </div>
+            <div class="movie_name">
+                <h1>Venom:The Last Dance</h1>
+                <div class="icon_star">
+                    <h3><ion-icon name="star" class="star"></ion-icon>8/10</h3>
+                    <button type="button" class="rate_btn">Rate now</button>
+                </div>
+                <div class="movie_language">
+                    <h4>2D</h4>
+                    <h4>Tamil,Telugu,Hindi,Kannada,Malayalam</h4>
+                </div>
+                <div class="movie_details">
+                    <h4>2h 49m • Action,Drama,Thriller • UA • 31 Oct, 2024</h4>
+                </div>
+            </div>
+        </div>
+        <div class="ticket_book">
+            <hr style="margin-top: 2px; height:2px;color:rgba(0, 0, 0, 0.932);background-color:rgb(12, 11, 11)">
+            <h1 style="text-align:center; margin: 30px; color: rgba(0, 0, 0, 0.932);">Book Tickets</h1>
+            <table border="1px" align="center" cellspacing="5" cellpadding="10" width="70%"  id="booking_table">
+                <tr>
+                    <th>Date</th>
+                    <th>Show Time</th>
+                    <th>Seats</th>
+                    <th>Book Tickets</th>
+                </tr>
+                <tr>
+                    <td>2024-10-15</td>
+                    <td>07:00 AM</td>
+                    <td>10</td>
+                    <td><button class="book_btn">Book Tickets</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-16</td>
+                    <td>08:00 AM</td>
+                    <td>8</td>
+                    <td><button class="book_btn">Book Tickets</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-17</td>
+                    <td>10:00 AM</td>
+                    <td>18</td>
+                    <td><button class="book_btn">Book Tickets</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-17</td>
+                    <td>01:30 PM</td>
+                    <td>13</td>
+                    <td><button class="book_btn">Book Tickets</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-17</td>
+                    <td>02:00 AM</td>
+                    <td>25</td>
+                    <td><button class="book_btn">Book Tickets</button></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
